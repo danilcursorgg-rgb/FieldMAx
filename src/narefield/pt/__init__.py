@@ -1,6 +1,8 @@
 """PyTorch implementations of NARE-Field components."""
 
 from .attention import FieldAttentionResult, SubQAttentionConfig, SubQFieldAttention
+from .bridge import BridgeConfig, BridgeOutput, NAREBridge
+from .generate import GenerationResult, NAREGenerator
 from .losses import CognitiveInvariant, LossBreakdown, PredictionEnergyLoss
 from .memory import MemoryField, MemoryFieldConfig, MemoryTrace
 from .model import NAREConfig, NAREFieldModel, NAREStepResult
@@ -20,19 +22,24 @@ __all__ = [
     "AnthillLayer",
     "AnthillRouter",
     "AnthillRouterConfig",
+    "BridgeConfig",
+    "BridgeOutput",
     "CognitiveInvariant",
     "CognitiveTemperature",
     "CognitiveTemperatureConfig",
     "FieldAttentionResult",
     "FreeEnergyTrainer",
     "FreeEnergyUpdate",
+    "GenerationResult",
     "LinearExpert",
     "LossBreakdown",
     "MemoryField",
     "MemoryFieldConfig",
     "MemoryTrace",
+    "NAREBridge",
     "NAREConfig",
     "NAREFieldModel",
+    "NAREGenerator",
     "NAREStepResult",
     "NonParametricMemory",
     "NonParametricMemoryConfig",
