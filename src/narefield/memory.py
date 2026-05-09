@@ -101,7 +101,8 @@ class MemoryField:
             self.config.decay * self.weights
             + self.config.learning_rate * np.outer(error, z)
         )
-        self._append_attractor(trace.delta)
+        # Store the converged state as an attractor (not just the delta)
+        self._append_attractor(trace.state)
 
     def write(self, state: np.ndarray) -> MemoryTrace:
         trace = self.infer(state)
