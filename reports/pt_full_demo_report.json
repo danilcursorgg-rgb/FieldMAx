@@ -1,0 +1,230 @@
+{
+  "model": "NARE-Field PyTorch Prototype",
+  "dim": 32,
+  "num_tasks": 48,
+  "epochs": 10,
+  "score": 1.0,
+  "training_history": {
+    "full": [
+      {
+        "epoch": 0,
+        "mean_energy": 0.04577250778675079,
+        "prediction_error": 0.03600791096687317,
+        "routing_balance": 0.5083203911781311,
+        "routing_load_std": 0.25672245025634766,
+        "cognitive_temperature": 0.5148322643575994
+      },
+      {
+        "epoch": 1,
+        "mean_energy": 0.04652514184514681,
+        "prediction_error": 0.03458678722381592,
+        "routing_balance": 0.31810462474823,
+        "routing_load_std": 0.21702395379543304,
+        "cognitive_temperature": 0.6067205832606541
+      },
+      {
+        "epoch": 2,
+        "mean_energy": 0.04379175417125225,
+        "prediction_error": 0.03137252852320671,
+        "routing_balance": 0.14246508479118347,
+        "routing_load_std": 0.1535497009754181,
+        "cognitive_temperature": 0.6329608866295146
+      },
+      {
+        "epoch": 3,
+        "mean_energy": 0.04287605732679367,
+        "prediction_error": 0.030647404491901398,
+        "routing_balance": 0.08093152940273285,
+        "routing_load_std": 0.11438295245170593,
+        "cognitive_temperature": 0.6398702687893766
+      },
+      {
+        "epoch": 4,
+        "mean_energy": 0.039442370956142746,
+        "prediction_error": 0.027901530265808105,
+        "routing_balance": 0.01707157865166664,
+        "routing_load_std": 0.05294493958353996,
+        "cognitive_temperature": 0.640414254760939
+      },
+      {
+        "epoch": 5,
+        "mean_energy": 0.03855966900785764,
+        "prediction_error": 0.027544189244508743,
+        "routing_balance": 0.016679663211107254,
+        "routing_load_std": 0.052365630865097046,
+        "cognitive_temperature": 0.6402448904836537
+      },
+      {
+        "epoch": 6,
+        "mean_energy": 0.037917567417025566,
+        "prediction_error": 0.026818424463272095,
+        "routing_balance": 0.016453031450510025,
+        "routing_load_std": 0.052032385021448135,
+        "cognitive_temperature": 0.639756771496967
+      },
+      {
+        "epoch": 7,
+        "mean_energy": 0.037436709428826966,
+        "prediction_error": 0.026287563145160675,
+        "routing_balance": 0.016224022954702377,
+        "routing_load_std": 0.05167854204773903,
+        "cognitive_temperature": 0.639127039317621
+      },
+      {
+        "epoch": 8,
+        "mean_energy": 0.03683155216276646,
+        "prediction_error": 0.025512784719467163,
+        "routing_balance": 0.042802006006240845,
+        "routing_load_std": 0.08703400194644928,
+        "cognitive_temperature": 0.6383216518519369
+      },
+      {
+        "epoch": 9,
+        "mean_energy": 0.03620983970661958,
+        "prediction_error": 0.02500743418931961,
+        "routing_balance": 0.042018815875053406,
+        "routing_load_std": 0.08613622933626175,
+        "cognitive_temperature": 0.6373814984519515
+      }
+    ],
+    "ablated": [
+      {
+        "epoch": 0,
+        "mean_energy": 0.04965337614218394,
+        "prediction_error": 0.04119201749563217,
+        "routing_balance": 0.23388634622097015,
+        "routing_load_std": 0.18900743126869202,
+        "cognitive_temperature": 0.5227258614998537
+      },
+      {
+        "epoch": 1,
+        "mean_energy": 0.05188989515105883,
+        "prediction_error": 0.0395103394985199,
+        "routing_balance": 0.13440319895744324,
+        "routing_load_std": 0.14619196951389313,
+        "cognitive_temperature": 0.6148476411411066
+      },
+      {
+        "epoch": 2,
+        "mean_energy": 0.05016022237638632,
+        "prediction_error": 0.03806355595588684,
+        "routing_balance": 0.08044825494289398,
+        "routing_load_std": 0.11396509408950806,
+        "cognitive_temperature": 0.6399419714205205
+      },
+      {
+        "epoch": 3,
+        "mean_energy": 0.048094674944877625,
+        "prediction_error": 0.03673654422163963,
+        "routing_balance": 0.04464365541934967,
+        "routing_load_std": 0.08877753466367722,
+        "cognitive_temperature": 0.6457543199412725
+      },
+      {
+        "epoch": 4,
+        "mean_energy": 0.04671084259947141,
+        "prediction_error": 0.035433243960142136,
+        "routing_balance": 0.043127819895744324,
+        "routing_load_std": 0.08736517280340195,
+        "cognitive_temperature": 0.6469736525961673
+      },
+      {
+        "epoch": 5,
+        "mean_energy": 0.04529053904116154,
+        "prediction_error": 0.03451501205563545,
+        "routing_balance": 0.016427144408226013,
+        "routing_load_std": 0.05179471895098686,
+        "cognitive_temperature": 0.6471205679491255
+      },
+      {
+        "epoch": 6,
+        "mean_energy": 0.044346459209918976,
+        "prediction_error": 0.03329520672559738,
+        "routing_balance": 0.016353916376829147,
+        "routing_load_std": 0.05156102776527405,
+        "cognitive_temperature": 0.6472981060264722
+      },
+      {
+        "epoch": 7,
+        "mean_energy": 0.0429434801141421,
+        "prediction_error": 0.03178451582789421,
+        "routing_balance": 0.04025722295045853,
+        "routing_load_std": 0.08426524698734283,
+        "cognitive_temperature": 0.647201948113774
+      },
+      {
+        "epoch": 8,
+        "mean_energy": 0.041671949749191604,
+        "prediction_error": 0.030643511563539505,
+        "routing_balance": 0.03901371359825134,
+        "routing_load_std": 0.08279212564229965,
+        "cognitive_temperature": 0.6467913670438733
+      },
+      {
+        "epoch": 9,
+        "mean_energy": 0.040498120710253716,
+        "prediction_error": 0.0295376218855381,
+        "routing_balance": 0.03760316222906113,
+        "routing_load_std": 0.08114192634820938,
+        "cognitive_temperature": 0.6460189341814562
+      }
+    ]
+  },
+  "evaluation": {
+    "loss_total": 0.03402228653430939,
+    "loss_reconstruction": 0.02350725047290325,
+    "routing_load_std": 0.014929835684597492,
+    "memory_capacity_usage": 1.0,
+    "retrieval_hit_rate": 1.0,
+    "trace_hit_rate": 1.0,
+    "attention_complexity": 96.0,
+    "cognitive_temperature": 0.6409295276114896,
+    "cognitive_mode": "exploit",
+    "active_parameter_ratio": 0.5
+  },
+  "evidence_checks": [
+    {
+      "name": "prediction_energy_trend",
+      "status": "pass",
+      "observed": 0.8118053148209613,
+      "threshold": 1.0,
+      "detail": "early=0.0454 -> late=0.0368"
+    },
+    {
+      "name": "full_beats_ablation",
+      "status": "pass",
+      "observed": 0.004288281003634133,
+      "threshold": 0.0,
+      "detail": "full=0.0362 vs ablated=0.0405"
+    },
+    {
+      "name": "memory_reuse",
+      "status": "pass",
+      "observed": 1.0,
+      "threshold": 0.3,
+      "detail": "retrieval=1.00, trace=1.00"
+    },
+    {
+      "name": "routing_stability",
+      "status": "pass",
+      "observed": 0.014929835684597492,
+      "threshold": 0.3
+    },
+    {
+      "name": "subquadratic_attention",
+      "status": "pass",
+      "observed": 0.041666666666666664,
+      "threshold": 0.75,
+      "detail": "complexity=96 vs n^2=2304"
+    }
+  ],
+  "theory_components": {
+    "prediction_energy": "MSE(x, x_hat) + invariant + memory_capacity + routing_balance",
+    "memory_field": "Hopfield attractor memory with predictive inference + Hebbian writes",
+    "subq_attention": "bucketed potential attention O(n*k) vs O(n^2), ratio=0.0417",
+    "anthill_routing": "top-k MoE with KL load-balancing, stability=0.0149",
+    "trace_memory": "latent reasoning trajectories, hit_rate=1.00",
+    "retrieval_memory": "non-parametric key-value store, hit_rate=1.00",
+    "cognitive_temperature": "0.641 (exploit)"
+  }
+}
